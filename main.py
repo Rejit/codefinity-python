@@ -1,3 +1,8 @@
-print("Hello World")
-s = "bottom"
-print(f"{s[0]}{len(s[1:-1])}{s[-1]}")
+title = "The Bear Growth Race"
+
+def to_camel_case(s: str) -> str:
+    words = s.split()
+    return words[0].lower() + ''.join(word.capitalize() for word in words[1:])
+
+result = to_camel_case(title)
+print(f"{result}.py")
