@@ -1,4 +1,4 @@
-title = "The Bear Growth Race"
+title = "String Reflection"
 
 def to_camel_case(s: str) -> str:
     words = s.split()
